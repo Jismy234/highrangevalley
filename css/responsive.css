@@ -1238,6 +1238,8 @@
 
     #qualityproduct .details .text p {
         font-size: 16px;
+        max-width: 100%;
+
     }
 
     .demo {
@@ -1309,7 +1311,12 @@
         height: 667px;
         margin-left: 184px;
     }
-
+    footer .Copyright {
+        flex-direction: column;
+    }
+    .line_foter{
+        display: none;
+    }
 
 
 
@@ -1411,8 +1418,9 @@
     }
 
     #spotlight .main2-img {
-        left: 2px;
-        width: 377px;
+            width: 330px;
+            margin-top: -65px;
+            margin-left: 34px;
     }
 
     #spotlight .details .quality .expl {
@@ -1516,6 +1524,7 @@
 
     #clientsays {
         height: 1187px;
+        flex-direction: column;
     }
 
     #clientsays .text1 {
@@ -1546,9 +1555,8 @@
         margin-top: 10px;
     }
 
-    #clientsays .main {
-        margin-top: 450px;
-        margin-left: -1053px;
+    #clientsays .details{
+        flex-direction: column;
     }
 
     #products .tab {

@@ -466,6 +466,7 @@ body {
     font-weight: 200;
     font-size: 20px;
     line-height: 32px;
+    text-align: justify;
     color: #D4D4D4;
     margin-top: 50px;
     margin-bottom: 40px;
@@ -615,8 +616,8 @@ body {
 
 #product .image-gallery .img-connn {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.48) 0%,
-            rgba(0, 0, 0, 0) 100%), url("../assets/images/home/cardmom-long.png");
-    height: 100%;
+            #00000000 100%), url("../assets/images/home/cardmom-long.png");
+    height: 529px;
     border-radius: 5px;
     width: 101%;
     background-repeat: no-repeat;
@@ -628,7 +629,7 @@ body {
 #product .image-gallery .middle .img-con1 {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.48) 0%,
             rgba(0, 0, 0, 0) 100%), url("../assets/images/home/cinnamon.png");
-    height: 100%;
+    height: 260px;
     border-radius: 5px;
     width: 101%;
     background-repeat: no-repeat;
@@ -639,18 +640,18 @@ body {
 #product .image-gallery .middle .img-con2 {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.48) 0%,
             #00000000 100%), url("../assets/images/home/pepper-products.png");
-            height: 100%;
-            border-radius: 5px;
-            width: 101%;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
+    height: 260px;
+    border-radius: 5px;
+    width: 101%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 #product .image-gallery .img-con3 {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.48) 0%,
             rgba(0, 0, 0, 0) 100%), url("../assets/images/home/ginger.png");
-    height: 447px;
+    height: 529px;
     border-radius: 5px;
     background-repeat: no-repeat;
     background-position: center;
@@ -786,7 +787,6 @@ body {
     font-size: 38px;
     line-height: 74px;
     color: #0F5E28;
-
 }
 
 #highrangevalley .details .text p {
@@ -796,6 +796,7 @@ body {
     font-weight: 200;
     font-size: 17px;
     line-height: 23px;
+    text-align: justify;
     color: #5C6562;
     margin-top: 22px;
 }
@@ -876,6 +877,7 @@ body {
     line-height: 23px;
     color: #5C6562;
     margin-top: 22px;
+    text-align: justify;
 }
 
 #qualityproduct .details .leaf h5 {
