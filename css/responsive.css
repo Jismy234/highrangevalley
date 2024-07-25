@@ -1556,7 +1556,7 @@
     }
 
     #clientsays .details{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     #products .tab {
